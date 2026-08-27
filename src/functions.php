@@ -2,7 +2,7 @@
 
 use Andaniel05\Flows\AbstractFlow;
 use Andaniel05\Flows\Execution;
-use App\FlowDispatcher;
+use Andaniel05\LaravelFlows\FlowDispatcher;
 
 function flow(AbstractFlow $flow): Execution
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Andaniel05\LaravelFlows;
 
 use Andaniel05\Flows\AbstractFlow;
 
