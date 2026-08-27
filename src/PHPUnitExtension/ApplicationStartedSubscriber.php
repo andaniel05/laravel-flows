@@ -18,7 +18,7 @@ final class ApplicationStartedSubscriber implements StartedSubscriber
         // Discover flow classes in app directory
         //
 
-        $flowsDir = app_path();
+        $flowsDir = __DIR__ . '/../../../../../app';
         $fileNameList = [];
 
         $flowFileNames = [];
