@@ -11,6 +11,8 @@ use PHPUnit\Runner\Extension\Facade;
 use PHPUnit\Runner\Extension\ParameterCollection;
 use PHPUnit\TextUI\Configuration\Configuration;
 
+require_once __DIR__ . '/PHPUnitExtension/functions-for-testing.php';
+
 final class PHPUnitExtension implements ExtensionInterface
 {
     public function bootstrap(Configuration $configuration, Facade $facade, ParameterCollection $parameters): void
